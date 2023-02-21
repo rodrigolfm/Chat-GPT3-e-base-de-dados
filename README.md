@@ -29,10 +29,9 @@ Observe que o script usa uma chave de API para acessar a API OpenAI, que é arma
 
 ARQUIVO : index.php
 
-arquivo index.php parece estar correto e funcional. 
 
 Ele contém um formulário onde o usuário pode digitar sua pergunta e enviá-la para processamento para o arquivo processa-pergunta.php usando AJAX. 
 
 Em seguida, a resposta é exibida na div #chatbot-output sem atualizar a página. 
 
-O código também possui algumas funcionalidades para exibir um ícone de carregamento enquanto a resposta está sendo processada. Certifique-se de que o arquivo processa-pergunta.php esteja funcionando corretamente e que a conexão com o banco de dados esteja configurada corretamente.
+O código também possui algumas funcionalidades para exibir um ícone de carregamento enquanto a resposta está sendo processada. 
