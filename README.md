@@ -1,6 +1,6 @@
 # Chat-GPT3-e-base-de-dados
 
-
+ARQUIVO : processa-pergunta-php
 
 Este é um script PHP que se conecta a um banco de dados MySQL e processa a entrada do usuário para gerar respostas usando a API Davinci Codex da OpenAI. Aqui está uma breve visão geral do que o script faz:
 
@@ -21,3 +21,15 @@ A função getResponseFromOpenAI() envia uma solicitação para a API OpenAI usa
 O script então gera a resposta gerada para o usuário e insere a pergunta e a resposta no banco de dados MySQL usando uma instrução SQL INSERT.
 
 Observe que o script usa uma chave de API para acessar a API OpenAI, que é armazenada na variável $openaiApiKey. Essa chave deve ser mantida em segurança e não compartilhada publicamente. Observe também que o script usa as funções htmlentities() e html_entity_decode() para lidar com caracteres especiais na entrada do usuário e nas respostas geradas.
+
+
+
+ARQUIVO : index.php
+
+arquivo index.php parece estar correto e funcional. 
+
+Ele contém um formulário onde o usuário pode digitar sua pergunta e enviá-la para processamento para o arquivo processa-pergunta.php usando AJAX. 
+
+Em seguida, a resposta é exibida na div #chatbot-output sem atualizar a página. 
+
+O código também possui algumas funcionalidades para exibir um ícone de carregamento enquanto a resposta está sendo processada. Certifique-se de que o arquivo processa-pergunta.php esteja funcionando corretamente e que a conexão com o banco de dados esteja configurada corretamente.
