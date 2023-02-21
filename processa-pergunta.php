@@ -4,9 +4,9 @@
 
 // Conexão com o banco de dados
 $servername = "localhost";
-$username = "sousamir_user";
-$password = "@evssj@SBO5l";
-$dbname = "sousamir_perguntas_e_respostas";
+$username = "SEU-USER-AQUI";
+$password = "SUA-SENHA-AQUI";
+$dbname = "SUA-BASE-DE-DADOS-AQUI";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 mysqli_set_charset($conn, "utf8");
@@ -47,7 +47,7 @@ function getResponseFromOpenAI($userInput) {
     $userInput = htmlentities($userInput, ENT_QUOTES, 'UTF-8');
 
     // Use a API de OpenAI para processar a pergunta do usuário e gerar uma resposta
-    $openaiApiKey = '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';
+    $openaiApiKey = 'SUA-API-DA-OPENAI-AQUI';
     $curl = curl_init();
     curl_setopt_array($curl, array(
         CURLOPT_URL => "https://api.openai.com/v1/engines/davinci-codex/completions",
