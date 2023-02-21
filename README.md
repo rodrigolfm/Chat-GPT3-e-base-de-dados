@@ -20,7 +20,11 @@ A função getResponseFromOpenAI() envia uma solicitação para a API OpenAI usa
 
 O script então gera a resposta gerada para o usuário e insere a pergunta e a resposta no banco de dados MySQL usando uma instrução SQL INSERT.
 
-Observe que o script usa uma chave de API para acessar a API OpenAI, que é armazenada na variável $openaiApiKey. Essa chave deve ser mantida em segurança e não compartilhada publicamente. Observe também que o script usa as funções htmlentities() e html_entity_decode() para lidar com caracteres especiais na entrada do usuário e nas respostas geradas.
+Observe que o script usa uma chave de API para acessar a API OpenAI, que é armazenada na variável $openaiApiKey. 
+
+Essa chave deve ser mantida em segurança e não compartilhada publicamente.
+
+Observe também que o script usa as funções htmlentities() e html_entity_decode() para lidar com caracteres especiais na entrada do usuário e nas respostas geradas.
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
