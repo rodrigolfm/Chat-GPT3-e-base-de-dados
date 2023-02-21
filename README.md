@@ -23,6 +23,9 @@ O script então gera a resposta gerada para o usuário e insere a pergunta e a r
 Observe que o script usa uma chave de API para acessar a API OpenAI, que é armazenada na variável $openaiApiKey. Essa chave deve ser mantida em segurança e não compartilhada publicamente. Observe também que o script usa as funções htmlentities() e html_entity_decode() para lidar com caracteres especiais na entrada do usuário e nas respostas geradas.
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 ARQUIVO : index.php
 
